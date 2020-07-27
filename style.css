@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* NAVIGATION */
+
+.logo {
+	transform: scale(5, 5);
+}
+
+.navbar-brand span {
+	color: #2aa8dd;
+}
+
+.nav-item {
+	padding: 0 1rem;
+}
+
+.nav-link {
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.nav-link .fab {
+	font-size: 1rem;
+}
+
+.navbar .nav-link:hover {
+	color: #ff9d00 !important;
+}
+
+/* HEADER */
+#home-section {
+	background: url('./img/home.jpg') no-repeat center top fixed;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 700px;
+}
+
+#home-section .dark-overlay {
+	background-color: rgba(0, 0, 0, .7);
+	position: absolute;
+	top: 58px;
+	left: 0;
+	width: 100%;
+	min-height: 700px;
+}
+
+#home-section .home-inner {
+	padding-top: 150px;
+}
+
+.home {
+	color: #fff;
+}
+
+.home h3 {
+	color: #ff9d00;
+}
+
+.home a {
+	color: #fff;
+	background: #ff9d00;
+	padding: 1.5rem 2rem;
+	font-size: 1.5rem;
+	border-radius: 10px;
+	border: none;
+}
+
+.home a:hover {
+	color: #fff;
+	background: #ff9900;
+}
+
+/* CLIENTS */
+
+#clients {
+	background: #ff9d00;
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+}
+
+/* ABOUT */
+#about .founder {
+	color: #ff9900;
+}
+
+/* SERVICES */
+
+#services img {
+	border-radius: 100%;
+	padding-right: 1rem;
+	width: 100%;
+}
+
+#services a {
+	color: #333;
+	text-decoration: underline;
+}
+
+.service h3 {
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+
+.service p {
+	text-transform: uppercase;
+	font-size: 1rem;
+}
+
+/* PORTFOLIO */
+#portfolio {
+	background: #ff9d00;
+	color: #fff;
+}
+
+/* SECTION: SEO */
+#seo {
+	background: #fff;
+}
+#seo img {
+	transform: scale(1.5, 1.5);
+}
+
+/* SECTION SEO-GOOGLE */
+.seo-g {
+	border: 1px solid #eee;
+	box-shadow: 2px 2px #fff;
+	text-align: center;
+	position: relative;
+}
+
+.seo-g span.number {
+	font-size: 3rem;
+	color: #ff9900;
+	position: absolute;
+	top: -35px;
+}
+
+.seo-g-button {
+	text-align: center;
+	margin: 1.25rem 0;
+}
+
+.seo-g-button a {
+	color: #fff;
+	background: #ff9d00;
+	padding: 1.5rem 2rem;
+	font-size: 1.5rem;
+	border-radius: 10px;
+	border: none;
+	font-size: 1rem;
+}
+
+.seo-g-button a:hover {
+	color: #fff;
+	background: #ff9900;
+}
+
+/* GRAPHIC DESIGN */
+#graphic img {
+	display: block;
+}
+
+.graphic_design {
+	position: relative;
+}
+.graphic_design_text {
+	position: absolute;
+	background: rgba(0, 0, 0, .3);
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	width: 100%;
+}
+
+.graphic_design h3 {
+	font-size: 1.25rem;
+	margin-bottom: 0;
+}
+
+.graphic_design p {
+	font-size: .75rem;
+}
+
+/* TESTIMONIALS */
+
+#testimonials {
+	background: url('img/testimonials/lights.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+	min-height: 400px;
+	color: #fff;
+	padding: 1.5rem 0;
+}
+
+.dark-overlay-1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .4);
+}
+
+.testimonial {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem 0;
+}
+
+.testimonial img {
+	width: 150px;
+	border-radius: 100%;
+	margin: auto;
+	display: inline-block;
+}
+
+/* CONTACT */
+
+.btn-contact {
+	background: #ff9d00;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+}
+
+.btn-contact:hover {
+	background: #ff9900;
+	color: #eee;
+}
